@@ -11,3 +11,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+@media screen and (min-width: 400 px) and (max-width: 800 px), (min-width: 1000 px){
+ {
+  background-color: blue ; }}
+body {
+  background-color: paleturquoise;
+} 
