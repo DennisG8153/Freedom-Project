@@ -1,13 +1,56 @@
-li a {
- display: block;
- width: 150px;
- background-color: rgb(245,191,243);
- text-align: center;
- text-decoration: none;
-}
 
+ul {
+  list-style-type: none;
+  margin-left: atuo;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+}
+@media screen and (min-width: 400 px) and (max-width: 800 px){
+ background-color: blue;}
+body {
+  background-color: paleturquoise;
+} 
+button {
+  position: bottom 500px;
+}
+.my_centered_buttons { display: flex; justify-content: center; }
+.sticky{
+  position: sticky; 
+  padding:0; 
+  top: 0; 
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 325px
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(36, 101, 165);
+}
+p {
+  font-family: 'Rubik', sans-serif;
+}
+h2 {
+  font-family: 'Rubik', sans-serif;
+text-align: cetner;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }
